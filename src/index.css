@@ -13,6 +13,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.active-link {
+  font-weight: bold;
+  color: blue;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -52,6 +63,23 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+ul {
+  list-style: none;
+}
+
+#user {
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+
+#user__buttons {
+  display: flex;
+  gap: 1em;
 }
 
 @media (prefers-color-scheme: light) {
